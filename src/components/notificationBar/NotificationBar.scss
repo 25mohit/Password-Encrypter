@@ -1,0 +1,21 @@
+.notification-bar{
+    position: fixed;
+    right: 2%;
+    bottom: 2%;
+    // background-color: orange;
+    // height: 50px;
+    // padding: 10px;
+    .container-notification{
+        background-color: rgb(251, 251, 219);
+        border-radius: 10px;
+        padding: 10px 30px;
+        border: 1px solid rgb(255, 155, 15);
+        .notification-text{
+            font-size: 17px;
+            user-select: none;
+            color: rgb(50, 50, 50);
+            margin: 0;
+        }
+    }
+}
+/* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */

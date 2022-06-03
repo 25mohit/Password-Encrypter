@@ -1,0 +1,23 @@
+.notification-bar {
+  position: fixed;
+  right: 2%;
+  bottom: 2%;
+}
+
+.notification-bar .container-notification {
+  background-color: #fbfbdb;
+  border-radius: 10px;
+  padding: 10px 30px;
+  border: 1px solid #ff9b0f;
+}
+
+.notification-bar .container-notification .notification-text {
+  font-size: 17px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  color: #323232;
+  margin: 0;
+}
+/*# sourceMappingURL=NotificationBar.css.map */

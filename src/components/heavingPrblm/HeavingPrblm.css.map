@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,kBAAkB,CAAA;EACd,QAAQ,EAAE,KAAK;EACf,MAAM,EAAE,CAAC;EACT,IAAI,EAAE,EAAE;CAQX;;AAXD,AAII,kBAJc,CAId,mBAAmB,CAAA;EACf,KAAK,EAAE,sBAAsB;EAC7B,SAAS,EAAE,IAAI;CAClB;;AAPL,AAQI,kBARc,CAQd,mBAAmB,AAAA,MAAM,CAAA;EACrB,MAAM,EAAE,OAAO;CAClB",
+    "sources": [
+        "HeavingPrblm.scss"
+    ],
+    "names": [],
+    "file": "HeavingPrblm.css"
+}
