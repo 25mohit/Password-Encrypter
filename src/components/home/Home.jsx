@@ -12,9 +12,9 @@ export const Home = () => {
     <div className='home-div'>
         { showEncrypt && <Encrypt setShowEncrypt = { setShowEncrypt } setShowDecrypt = { setShowDecrypt } /> }
         { showDecrypt && <Decrypt setShowEncrypt = { setShowEncrypt } setShowDecrypt = { setShowDecrypt } /> }
-        {/* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */}
+            
         <HeavingPrblm />
     </div>
-    /* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */
+     
   )
 }

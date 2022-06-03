@@ -27,7 +27,7 @@ export const FAQModel = ({setShowModel, showModel}) => {
                             <h1 className='faq-text-heading'>FAQ</h1>
                             <p className="subject-heading">Allowed Charactors</p>
                             <ul>
-                            {/* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */}
+                                
                                 <li>All alphabats in Upper Case.</li>
                                 <li>All alphabats in Lower Case.</li>
                                 <li>0 to 9 digits.</li>

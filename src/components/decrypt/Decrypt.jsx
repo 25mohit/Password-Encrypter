@@ -32,7 +32,7 @@ export const Decrypt = ({ setShowEncrypt , setShowDecrypt }) => {
             setResult('')
             setWrongInput(true)
         }
- {/* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */}
+     
         function decryptFun(x) {
                 switch(x){
                     case  "≠" :

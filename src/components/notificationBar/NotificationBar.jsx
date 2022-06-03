@@ -11,5 +11,5 @@ export const NotificationBar = ({ message, setShowNotification }) => {
                 <p className="notification-text">{message}</p>
         </div>
     </div>
-  )/* This app is created by Mohit Agarwal  :: -> :: eMail : mohit724agarwal@gmail.com */
+  ) 
 }
