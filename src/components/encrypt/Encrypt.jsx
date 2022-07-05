@@ -23,11 +23,11 @@ export const Encrypt = ({ setShowEncrypt, setShowDecrypt }) => {
       setResult(tempText);
       setEncryptedText(true);
     }
-    // if ( password.match( /[≠\≈\≡\≃\≅\∽\¨\≐\≒\≓\≔\≕\≖\≗\≘\≙\≚\≛\≜\≞\≟\⩴\⩵\⩶\¢\¦\§\¨\©\«\ª\¬\®\°\±\²\µ\¶\»\¼\½\¾\¿\Æ\ð\ƌ\Ɲ\Ƣ\Ʀ\Ƶ\Ʒ\Ƹ\ƺ\Ǆ\ǅ\ǆ\Ǉ\Ǌ\ǋ\Ø\¤\Ā\Ⱦ\ȿ\ɀ\Ƀ\ɇ\Ɏ\β\ζ\θ\ξ\φ\ώ\ϖ\ϗ\Ϣ\Ͽ\Љ\Њ\Ћ\Џ\Д\Ж\Щ\Ю\Ѡ\▽\◇\ƕ\ƛ\Ⱥ\ɼ\Ѥ\Ѭ\Ѫ\Ѩ\Ѽ]/ )) {
-    //   setEncryptedText(false);
-    //   setResult("");
-    //   setShowWrongInput(true);
-    // }
+    if ( password.match( /[≠\≈\≡\≃\≅\∽\¨\≐\≒\≓\≔\≕\≖\≗\≘\≙\≚\≛\≜\≞\≟\⩴\⩵\⩶\¢\¦\§\¨\©\«\ª\¬\®\°\±\²\µ\¶\»\¼\½\¾\¿\Æ\ð\ƌ\Ɲ\Ƣ\Ʀ\Ƶ\Ʒ\Ƹ\ƺ\Ǆ\ǅ\ǆ\Ǉ\Ǌ\ǋ\Ø\¤\Ā\Ⱦ\ȿ\ɀ\Ƀ\ɇ\Ɏ\β\ζ\θ\ξ\φ\ώ\ϖ\ϗ\Ϣ\Ͽ\Љ\Њ\Ћ\Џ\Д\Ж\Щ\Ю\Ѡ\▽\◇\ƕ\ƛ\Ⱥ\ɼ\Ѥ\Ѭ\Ѫ\Ѩ\Ѽ]/ )) {
+      setEncryptedText(false);
+      setResult("");
+      setShowWrongInput(true);
+    }
     function encryptFun(x) {
       switch (x) {
         case "a":
